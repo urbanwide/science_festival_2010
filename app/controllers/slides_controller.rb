@@ -14,7 +14,7 @@ class SlidesController < ApplicationController
     begin
       @slide = Slide.question(params[:id])
     rescue Exception => e
-      @slide = nil
+      @slide = nil # do something better here!
     ensure
       @header = "Is Otley Average? Live!"
     end

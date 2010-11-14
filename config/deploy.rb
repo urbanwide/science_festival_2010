@@ -1,7 +1,7 @@
 require 'capistrano/ext/multistage'
 
 set :stages, %w(production)
-set :default_stage, "staging"
+set :default_stage, "production"
 
 set :application, "science-festival-10"
 set :use_sudo, false

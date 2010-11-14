@@ -7,7 +7,7 @@ set :application, "science-festival-10"
 set :use_sudo, false
 
 default_run_options[:pty] = true
-set :repository, "git@github.com:urbanwide/science_festival_10.git"
+set :repository, "git@github.com:urbanwide/science_festival_2010.git"
 set :scm, "git"
 set :scm_passphrase, "iranyme1"
 set :user, "deploy"

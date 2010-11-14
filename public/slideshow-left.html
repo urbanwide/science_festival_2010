@@ -1,0 +1,51 @@
+<html>
+<HEAD>
+  <link href="/stylesheets/styles.css?1226250192" media="screen" rel="stylesheet" type="text/css" />
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- begin
+var repeatshow = 1; // 1 = yes, 0 = no
+var timedelay = 1500; // time in milliseconds, 15000 = `15 secs
+// be sure to allow enough time for each page to load !!!
+
+var page = new Array(
+	new Array("/slides/1", 10000),
+	new Array("/slides/2", 10000),
+	new Array("/slides/3", 10000),
+	new Array("/slides/4", 10000),
+	new Array("/slides/about", 15000)
+); // note no comma after last page!
+
+var slidenum = 0;
+var slidecount = page.length;
+var timerID = 0;
+var win2;
+
+function showSlideShow() {
+	var timething = page[slidenum][1];
+
+	if (slidenum < slidecount) {
+		parent.main.location.href = page[slidenum][0];
+		slidenum++;
+	}
+	if (slidenum == slidecount) { // if finished
+		slidenum = 0;
+	}
+	timerID = setTimeout('showSlideShow()', timething);
+	
+
+}
+//  end -->
+</script>
+</HEAD>
+
+<body onLoad="timerID=setTimeout('showSlideShow()',timedelay)">
+
+<!--
+<center>
+<a href="javascript:showSlideShow();" onClick="clearTimeout(timerID)">go</a><br>
+</center>
+-->
+
+</body>
+</html>

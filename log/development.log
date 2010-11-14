@@ -1,0 +1,2488 @@
+# Logfile created on Mon Nov 16 19:35:50 +0000 2009
+
+Processing SlidesController#index (for 127.0.0.1 at 2009-11-18 22:23:01) [GET]
+
+NoMethodError (undefined method `find' for Slide:Class):
+  app/controllers/slides_controller.rb:5:in `index'
+
+Rendered rescues/_trace (41.1ms)
+Rendered rescues/_request_and_response (4.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:23:05) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 423ms (View: 98, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:23:24) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 477ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:23:30) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 327ms (View: 1, DB: 0) | 200 OK [http://localhost/slides/3]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:23:35) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 335ms (View: 1, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:23:39) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 343ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:25:59) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 329ms (View: 1, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:29:42) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 334ms (View: 4, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:30:11) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 333ms (View: 5, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:32:46) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 330ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:32:51) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 317ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:35:54) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 354ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3]
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-11-18 22:36:27) [GET]
+  Parameters: {"id"=>"3"}
+
+SyntaxError (/Users/deb/Projects/science-festival-09/app/controllers/slides_controller.rb:25: no .<digit> floating literal anymore; put 0 before dot
+      @chart = GoogleChart.3d_pie_size_700x400(:data => [...
+                           ^
+/Users/deb/Projects/science-festival-09/app/controllers/slides_controller.rb:25: syntax error, unexpected tINTEGER
+      @chart = GoogleChart.3d_pie_size_700x400(:data => [@...
+                            ^):
+  
+
+Rendered rescues/_trace (42.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:36:55) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 324ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:37:23) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 374ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:37:37) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 323ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2009-11-18 22:39:14) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 35ms (View: 33, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:39:16) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 323ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:39:26) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 345ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:39:36) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 328ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2009-11-18 22:39:46) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:41:41) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 335ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:41:51) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 338ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:42:01) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 344ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2009-11-18 22:42:11) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 82ms (View: 81, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:43:17) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 337ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:43:54) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 324ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:44:08) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 321ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:44:09) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 325ms (View: 5, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:44:27) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 335ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:46:27) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 366ms (View: 40, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2009-11-18 22:46:41) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:46:43) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 748ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:46:53) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 346ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:47:03) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 469ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2009-11-18 22:47:13) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:49:08) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 337ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:49:18) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 355ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:49:28) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 329ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2009-11-18 22:49:38) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2009-11-18 22:50:39) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:50:41) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 511ms (View: 79, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:50:51) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 331ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:51:01) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 414ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2009-11-18 22:51:11) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:53:06) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 514ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:53:16) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 338ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:53:26) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 329ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2009-11-18 22:53:36) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:55:31) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 329ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:55:41) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 505ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:55:52) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 337ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2009-11-18 22:56:02) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:57:58) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 406ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:58:08) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 443ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 22:58:18) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 349ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2009-11-18 22:58:28) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 23:00:23) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 432ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 23:00:33) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 605ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 23:00:43) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 364ms (View: 47, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2009-11-18 23:00:54) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 23:02:49) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 451ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2009-11-18 23:02:59) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 325ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-12 22:33:41) [GET]
+  Parameters: {"id"=>"5", "colour"=>"330099"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 718ms (View: 90, DB: 0) | 200 OK [http://localhost/slides/5?colour=330099]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-12 22:33:51) [GET]
+  Parameters: {"id"=>"6", "colour"=>"000033"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 382ms (View: 1, DB: 0) | 200 OK [http://localhost/slides/6?colour=000033]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2010-11-12 22:33:57) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-12 22:33:58) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 412ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-12 22:34:08) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 449ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-12 22:34:18) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 430ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-12 22:34:28) [GET]
+  Parameters: {"id"=>"4", "colour"=>"339900"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 480ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4?colour=339900]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-12 22:34:38) [GET]
+  Parameters: {"id"=>"5", "colour"=>"330099"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 383ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/5?colour=330099]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-13 15:12:47) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 519ms (View: 63, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:29:26) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+Completed in 37ms (View: 35, DB: 0) | 200 OK [http://localhost/slides]
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:29:56) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/slides]
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:30:14) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+ERROR: compiling _run_erb_app47views47slides47index46html46erb RAISED compile error
+/Users/deb/Projects/science-festival-10/app/views/slides/index.html.erb:4: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...leChart.pie_3d_size_700x400(:1 => 3, :2 => 0, :3 => 2).to_ur...
+                              ^
+/Users/deb/Projects/science-festival-10/app/views/slides/index.html.erb:4: syntax error, unexpected ')', expecting kEND
+... => 0, :3 => 2).to_url ).to_s); @output_buffer.concat "\n\n"
+                              ^
+Function body:           def _run_erb_app47views47slides47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Testing slides</h1>\n\n\n  "
+
+
+; @output_buffer.concat(( image_tag GoogleChart.pie_3d_size_700x400(:1 => 3, :2 => 0, :3 => 2).to_url ).to_s); @output_buffer.concat "\n\n"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/deb/Projects/science-festival-10/app/views/slides/index.html.erb:9:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_view/base.rb:257:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1246:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:941:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1322:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:1334:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:527:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/routing/route_set.rb:434:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/reloader.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/failsafe.rb:26:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.3/lib/action_controller/dispatcher.rb:106:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/static.rb:31:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/rails/rack/log_tailer.rb:17:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.3/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/deb/Projects/science-festival-10/app/views/slides/index.html.erb:4: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...leChart.pie_3d_size_700x400(:1 => 3, :2 => 0, :3 => 2).to_ur...
+                              ^
+/Users/deb/Projects/science-festival-10/app/views/slides/index.html.erb:4: syntax error, unexpected ')', expecting kEND
+... => 0, :3 => 2).to_url ).to_s); @output_buffer.concat "\n\n"
+                              ^) on line #4 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: 
+4:   <%= image_tag GoogleChart.pie_3d_size_700x400(:1 => 3, :2 => 0, :3 => 2).to_url %>
+
+    app/views/slides/index.html.erb:9:in `compile!'
+
+Rendered rescues/_trace (55.5ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:30:37) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+Completed in 70ms (View: 68, DB: 0) | 200 OK [http://localhost/slides]
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:30:49) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/slides]
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:31:11) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #3 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: <%= image_tag GoogleChart.chart_3d_size_700x400("1" => 3, "2" => 0, "3" => 2).to_url %>
+
+    app/views/slides/index.html.erb:3
+
+Rendered rescues/_trace (87.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:32:15) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.to_url) on line #3 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: <%= image_tag GoogleChart.bar_3d_size_700x400("1" => 3, "2" => 0, "3" => 2).to_url %>
+
+    app/views/slides/index.html.erb:3
+
+Rendered rescues/_trace (230.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:32:41) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.to_url) on line #3 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: <%= image_tag GoogleChart.bar_3d_size_700x400("1" => 3, "2" => 0, "3" => 2).to_url %>
+
+    app/views/slides/index.html.erb:3
+
+Rendered rescues/_trace (66.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:35:08) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.to_url) on line #3 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: <%= image_tag GoogleChart.bar_vertical_stacked_size_700x400("1" => 3, "2" => 0, "3" => 2).to_url %>
+
+    app/views/slides/index.html.erb:3
+
+Rendered rescues/_trace (44.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:35:23) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.to_url) on line #3 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: <%= image_tag GoogleChart.bar_vertical_stacked("1" => 3, "2" => 0, "3" => 2).to_url %>
+
+    app/views/slides/index.html.erb:3
+
+Rendered rescues/_trace (49.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:35:29) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.to_url) on line #3 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: <%= image_tag GoogleChart.bar_3d_size_700x400("1" => 3, "2" => 0, "3" => 2).to_url %>
+
+    app/views/slides/index.html.erb:3
+
+Rendered rescues/_trace (57.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:35:39) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.to_url) on line #3 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: <%= image_tag GoogleChart.pie_3d_size_700x400("1" => 3, "2" => 0, "3" => 2).to_url %>
+
+    app/views/slides/index.html.erb:3
+
+Rendered rescues/_trace (238.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:35:45) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.to_url) on line #3 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3:   <%= image_tag GoogleChart.pie_3d_size_700x400("1" => 3, "2" => 0, "3" => 2).to_url %>
+
+    app/views/slides/index.html.erb:3
+
+Rendered rescues/_trace (65.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:35:55) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.to_url) on line #4 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: 
+4:   <%= image_tag GoogleChart.pie_3d_size_700x400("1" => 3, "2" => 0, "3" => 2).to_url %>
+
+    app/views/slides/index.html.erb:4
+
+Rendered rescues/_trace (200.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:36:12) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+Completed in 61ms (View: 60, DB: 0) | 200 OK [http://localhost/slides]
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:36:49) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+Completed in 111ms (View: 109, DB: 0) | 200 OK [http://localhost/slides]
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:37:20) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/slides]
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:37:23) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/slides]
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:37:35) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/slides]
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:37:39) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/slides]
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:37:49) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #4 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: 
+4:   <%= image_tag GoogleChart.bar_horizontal_size_700x400("1" => 3, "2" => 0, "3" => 2).to_url %>
+
+    app/views/slides/index.html.erb:4
+
+Rendered rescues/_trace (199.9ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:38:09) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.to_url) on line #4 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: 
+4:   <%= image_tag GoogleChart.bar_horizontal_stacked_size_700x400("1" => 3, "2" => 0, "3" => 2).to_url %>
+
+    app/views/slides/index.html.erb:4
+
+Rendered rescues/_trace (43.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-13 16:38:24) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://localhost/slides]
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-14 11:51:09) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+Completed in 81ms (View: 79, DB: 0) | 200 OK [http://localhost/slides]
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-14 11:51:19) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #4 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: 
+4:   <%= image_tag GoogleChart.bar_stacked_size_700x400(2,3,4,5,6).to_url %>
+
+    app/views/slides/index.html.erb:4
+
+Rendered rescues/_trace (48.3ms)
+Rendered rescues/_request_and_response (2.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-14 11:51:23) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.to_url) on line #4 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: 
+4:   <%= image_tag GoogleChart.bar_horizontal_stacked_size_700x400(2,3,4,5,6).to_url %>
+
+    app/views/slides/index.html.erb:4
+
+Rendered rescues/_trace (133.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#index (for 127.0.0.1 at 2010-11-14 11:51:24) [GET]
+Rendering template within layouts/slides
+Rendering slides/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.to_url) on line #4 of app/views/slides/index.html.erb:
+1: <h1>Testing slides</h1>
+2: 
+3: 
+4:   <%= image_tag GoogleChart.bar_horizontal_stacked_size_700x400(2,3,4,5,6).to_url %>
+
+    app/views/slides/index.html.erb:4
+
+Rendered rescues/_trace (43.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-14 11:53:27) [GET]
+
+ActionController::RoutingError (No route matches "/slide/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 11:53:31) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 957ms (View: 7, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 11:53:54) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.to_url) on line #4 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @title %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @chart.to_url %>
+5: <h1>
+6: Down: <%= sprintf "%.1f", @data[:down] %>%<br />
+7: Up: <%= sprintf "%.1f", @data[:up] %>%
+
+    app/views/slides/show.html.erb:4
+
+Rendered rescues/_trace (48.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 11:54:18) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.to_url) on line #4 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @title %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @chart.to_url %>
+5: <h1>
+6: Down: <%= sprintf "%.1f", @data[:down] %>%<br />
+7: Up: <%= sprintf "%.1f", @data[:up] %>%
+
+    app/views/slides/show.html.erb:4
+
+Rendered rescues/_trace (48.1ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-14 12:44:49) [GET]
+
+ActionController::RoutingError (No route matches "/slide/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 12:44:54) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart.to_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (269.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 12:47:32) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart.to_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (81.9ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 12:51:11) [GET]
+  Parameters: {"id"=>"1"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/slides_controller.rb:22:in `show'
+
+Rendered rescues/_trace (52.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 12:52:15) [GET]
+  Parameters: {"id"=>"1"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/slides_controller.rb:22:in `show'
+
+Rendered rescues/_trace (169.8ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 12:52:28) [GET]
+  Parameters: {"id"=>"1"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/slides_controller.rb:22:in `show'
+
+Rendered rescues/_trace (69.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 12:52:38) [GET]
+  Parameters: {"id"=>"1"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/slides_controller.rb:22:in `show'
+
+Rendered rescues/_trace (171.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 12:54:01) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (undefined method `question' for #<Slide:0x10339eca8>) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart.to_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 12:55:29) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #4 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart.to_url %>
+5: <h1>
+6: Down: <%#= sprintf "%.1f", @data[:down] %>%<br />
+7: Up: <%#= sprintf "%.1f", @data[:up] %>%
+
+    app/views/slides/show.html.erb:4:in `chart'
+    app/views/slides/show.html.erb:4
+
+Rendered rescues/_trace (235.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 13:01:47) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 482ms (View: 35, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 13:02:36) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 343ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 13:06:12) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 351ms (View: 4, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 13:07:52) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 409ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 14:39:33) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (undefined method `chds=' for #<GoogleChart:0x10174fe08>) on line #4 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart.to_url %>
+5: <h1>
+6: Down: <%#= sprintf "%.1f", @data[:down] %>%<br />
+7: Up: <%#= sprintf "%.1f", @data[:up] %>%
+
+    app/models/slide.rb:58:in `chart'
+    app/views/slides/show.html.erb:4
+
+Rendered rescues/_trace (43.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:04:23) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart.to_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (134.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:04:43) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (44.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:04:48) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (131.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:05:52) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (43.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:06:10) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (43.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:08:04) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 332ms (View: 5, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:09:39) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 295ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:12:27) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 284ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:18:53) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:20:01) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 283ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:20:25) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 289ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:24:51) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (undefined method `values' for #<Array:0x101cc3a38>) on line #4 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+6: Down: <%#= sprintf "%.1f", @data[:down] %>%<br />
+7: Up: <%#= sprintf "%.1f", @data[:up] %>%
+
+    app/models/slide.rb:53:in `chart_url'
+    app/views/slides/show.html.erb:4
+
+Rendered rescues/_trace (175.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:28:22) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 767ms (View: 39, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:31:41) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 800ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:32:37) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 299ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:32:55) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 1234ms (View: 4, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:33:12) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 291ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:33:17) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 289ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:33:20) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 281ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:33:29) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 300ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:55:19) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (61.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 15:58:23) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (59.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 19:43:06) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (53.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 19:44:51) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (77.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 19:49:48) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (179.5ms)
+Rendered rescues/_request_and_response (4.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 19:50:58) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 449ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:20:14) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 375ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:31:45) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (undefined method `colors' for #<Hash:0x101f34d08>) on line #4 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+6: Down: <%#= sprintf "%.1f", @data[:down] %>%<br />
+7: Up: <%#= sprintf "%.1f", @data[:up] %>%
+
+    app/models/slide.rb:56:in `chart_url'
+    app/views/slides/show.html.erb:4
+
+Rendered rescues/_trace (139.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:31:56) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (undefined method `colours' for #<Hash:0x10342a140>) on line #4 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+6: Down: <%#= sprintf "%.1f", @data[:down] %>%<br />
+7: Up: <%#= sprintf "%.1f", @data[:up] %>%
+
+    app/models/slide.rb:56:in `chart_url'
+    app/views/slides/show.html.erb:4
+
+Rendered rescues/_trace (45.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:32:00) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (undefined method `colours' for #<Hash:0x101cdbe30>) on line #4 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+6: Down: <%#= sprintf "%.1f", @data[:down] %>%<br />
+7: Up: <%#= sprintf "%.1f", @data[:up] %>%
+
+    app/models/slide.rb:56:in `chart_url'
+    app/views/slides/show.html.erb:4
+
+Rendered rescues/_trace (135.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:32:06) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (undefined method `colour' for #<Hash:0x1022f75f8>) on line #4 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+6: Down: <%#= sprintf "%.1f", @data[:down] %>%<br />
+7: Up: <%#= sprintf "%.1f", @data[:up] %>%
+
+    app/models/slide.rb:56:in `chart_url'
+    app/views/slides/show.html.erb:4
+
+Rendered rescues/_trace (47.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:32:15) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (undefined method `colour' for #<Slide:0x101751b68>) on line #4 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+6: Down: <%#= sprintf "%.1f", @data[:down] %>%<br />
+7: Up: <%#= sprintf "%.1f", @data[:up] %>%
+
+    app/models/slide.rb:56:in `chart_url'
+    app/views/slides/show.html.erb:4
+
+Rendered rescues/_trace (45.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:32:55) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (undefined method `colour' for #<Slide:0x101fc38f0>) on line #4 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+6: Down: <%#= sprintf "%.1f", @data[:down] %>%<br />
+7: Up: <%#= sprintf "%.1f", @data[:up] %>%
+
+    app/models/slide.rb:57:in `chart_url'
+    app/views/slides/show.html.erb:4
+
+Rendered rescues/_trace (47.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:33:10) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 357ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:35:08) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 333ms (View: 4, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:44:46) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 372ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:45:35) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 371ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:52:19) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 332ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:52:23) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 345ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 20:55:24) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 368ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 21:30:29) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 550ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 21:44:24) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (43.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 21:46:52) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 342ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 21:54:47) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 373ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 21:54:59) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 354ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 21:59:08) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (86.2ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 21:59:12) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (195.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 21:59:15) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (44.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 21:59:17) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (53.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:01:03) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (45.2ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:01:51) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 388ms (View: 49, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:01:57) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 447ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:02:07) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 365ms (View: 4, DB: 0) | 200 OK [http://localhost/slides/2]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:02:15) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 369ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/3]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:02:18) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 549ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:02:36) [GET]
+  Parameters: {"id"=>"5"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (58.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:02:39) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 382ms (View: 7, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:05:26) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (211.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:07:59) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (74.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:08:07) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %></h1>
+3: <%# if !@data.blank? and @data.has_key?(:results) and @data[:results] != 0 %>
+4: <%= image_tag @slide.chart_url %>
+5: <h1>
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (65.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:11:13) [GET]
+  Parameters: {"id"=>"4"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/slides_controller.rb:22:in `show'
+
+Rendered rescues/_trace (39.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:13:04) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 495ms (View: 6, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:14:45) [GET]
+  Parameters: {"id"=>"4"}
+
+NoMethodError (undefined method `pluralize' for #<SlidesController:0x1033860e0>):
+  app/controllers/slides_controller.rb:22:in `show'
+
+Rendered rescues/_trace (45.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:17:44) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 364ms (View: 5, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:17:53) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 375ms (View: 5, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:22:56) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 1416ms (View: 9, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:23:13) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 363ms (View: 11, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:24:27) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 393ms (View: 5, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:24:45) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 414ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:24:48) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 358ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:25:03) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 359ms (View: 5, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:25:25) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 352ms (View: 5, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:25:52) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 451ms (View: 16, DB: 0) | 200 OK [http://localhost/slides/2]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:25:56) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 376ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:25:59) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 350ms (View: 8, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2010-11-14 22:29:01) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:29:03) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 348ms (View: 4, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:29:13) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 395ms (View: 4, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:29:23) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 363ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:29:33) [GET]
+  Parameters: {"id"=>"4", "colour"=>"339900"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 391ms (View: 10, DB: 0) | 200 OK [http://localhost/slides/4?colour=339900]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:29:43) [GET]
+  Parameters: {"id"=>"5", "colour"=>"330099"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %> (<%= pluralize(@slide.count, 'result') %>)</h1>
+3: <%= image_tag @slide.chart_url %>
+4: <h1>
+5:   
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (51.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:29:53) [GET]
+  Parameters: {"id"=>"6", "colour"=>"000033"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %> (<%= pluralize(@slide.count, 'result') %>)</h1>
+3: <%= image_tag @slide.chart_url %>
+4: <h1>
+5:   
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (202.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:30:03) [GET]
+  Parameters: {"id"=>"7", "colour"=>"FFCC66"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %> (<%= pluralize(@slide.count, 'result') %>)</h1>
+3: <%= image_tag @slide.chart_url %>
+4: <h1>
+5:   
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (67.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:30:13) [GET]
+  Parameters: {"id"=>"8", "colour"=>"FF0066"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %> (<%= pluralize(@slide.count, 'result') %>)</h1>
+3: <%= image_tag @slide.chart_url %>
+4: <h1>
+5:   
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (184.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2010-11-14 22:30:23) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#pendulum (for 127.0.0.1 at 2010-11-14 22:30:38) [GET]
+Rendering template within layouts/slides
+Rendering slides/pendulum
+Completed in 38ms (View: 35, DB: 0) | 200 OK [http://localhost/slides/pendulum]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2010-11-14 22:31:03) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:31:04) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 358ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:31:14) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 360ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:31:24) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 450ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:31:34) [GET]
+  Parameters: {"id"=>"4", "colour"=>"339900"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 503ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4?colour=339900]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:31:44) [GET]
+  Parameters: {"id"=>"5", "colour"=>"330099"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %> (<%= pluralize(@slide.count, 'result') %>)</h1>
+3: <%= image_tag @slide.chart_url %>
+4: <h1>
+5:   
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (81.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2010-11-14 22:31:49) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:31:51) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 347ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:32:01) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 362ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:32:11) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 1330ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:32:21) [GET]
+  Parameters: {"id"=>"4", "colour"=>"339900"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 373ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4?colour=339900]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:32:31) [GET]
+  Parameters: {"id"=>"5", "colour"=>"330099"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %> (<%= pluralize(@slide.count, 'result') %>)</h1>
+3: <%= image_tag @slide.chart_url %>
+4: <h1>
+5:   
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (49.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:32:41) [GET]
+  Parameters: {"id"=>"6", "colour"=>"000033"}
+Rendering template within layouts/slides
+Rendering slides/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.question) on line #2 of app/views/slides/show.html.erb:
+1: <center>
+2: <h1><%= @slide.question %> (<%= pluralize(@slide.count, 'result') %>)</h1>
+3: <%= image_tag @slide.chart_url %>
+4: <h1>
+5:   
+
+    app/views/slides/show.html.erb:2
+
+Rendered rescues/_trace (74.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2010-11-14 22:32:58) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 56ms (View: 48, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:32:59) [GET]
+  Parameters: {"id"=>"1", "colour"=>"CC0000"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 534ms (View: 153, DB: 0) | 200 OK [http://localhost/slides/1?colour=CC0000]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:33:09) [GET]
+  Parameters: {"id"=>"2", "colour"=>"FF6600"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 352ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/2?colour=FF6600]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:33:19) [GET]
+  Parameters: {"id"=>"3", "colour"=>"FFFF00"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 358ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3?colour=FFFF00]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:33:20) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 357ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2010-11-14 22:33:22) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:33:23) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 356ms (View: 9, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:33:33) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 360ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:33:43) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 350ms (View: 4, DB: 0) | 200 OK [http://localhost/slides/3]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:33:53) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 390ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2010-11-14 22:34:03) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 10ms (View: 5, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:34:18) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 379ms (View: 31, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:34:28) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 390ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:34:38) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 372ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/3]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:34:48) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 389ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]
+
+
+Processing SlidesController#about (for 127.0.0.1 at 2010-11-14 22:34:58) [GET]
+Rendering template within layouts/slides
+Rendering slides/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/slides/about]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:35:13) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 364ms (View: 4, DB: 0) | 200 OK [http://localhost/slides/1]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:35:23) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 381ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/2]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:35:33) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 406ms (View: 3, DB: 0) | 200 OK [http://localhost/slides/3]
+
+
+Processing SlidesController#show (for 127.0.0.1 at 2010-11-14 22:35:43) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/slides
+Rendering slides/show
+Completed in 356ms (View: 2, DB: 0) | 200 OK [http://localhost/slides/4]

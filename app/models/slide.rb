@@ -38,7 +38,8 @@ class Slide
   
   def self.request
     begin
-      url = "http://urbanwide.wufoo.com/export/report/manager/is-otley-average.csv"
+      #url = "https://urbanwide.wufoo.com/entries/otley-science-festival-how-healthy-is-otley/"
+      url = "http://urbanwide.wufoo.com/export/report/manager/how-healthy-is-otley.csv"
       # url = "http://urbanwide.wufoo.com/export/report/manager/toast-dropping-experiment.csv"
       response = Net::HTTP.get_response(URI.parse(url))
     rescue Exception => e

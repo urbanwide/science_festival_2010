@@ -65,7 +65,7 @@ class Slide
     out = {} 
     csv = CSV::Reader.parse(body)
     
-    underweight = "5E767E" # blue
+    underweight = "FDD017" # yellow
     normal = "4AA02C" #green
     overweight = "F88017" #orange
     obese = "C11B17" #red
@@ -84,7 +84,6 @@ class Slide
 
         # bmi =  (weight / (height * height))
         bmi = (weight / (height * height)).round
-        puts "AGE: #{age}, BMI: #{bmi}"
 
         slide = 4 # default
         if age >= 4 && age < 9
@@ -96,9 +95,13 @@ class Slide
         else
           slide = 4
         end
-        out[slide][:data][bmi] ||= 0
-        out[slide][:data][bmi] += 1
-        out[slide][:count] += 1
+
+        if bmi >= 10 && bmi <= 40 
+          puts "AGE: #{age}, BMI: #{bmi}"
+          out[slide][:data][bmi] ||= 0
+          out[slide][:data][bmi] += 1
+          out[slide][:count] += 1
+        end
       end
     end
 

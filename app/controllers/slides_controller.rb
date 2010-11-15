@@ -3,7 +3,7 @@ class SlidesController < ApplicationController
   # GET /slides.xml
 
   def about
-    @header = "Toast Dropping Experiment - Live!"
+    @header = "How Healthy is Otley? Live!"
     @subtitle = "Why not join in the great experiment? Find us in the Multi-Media Room"
   end
 
@@ -16,7 +16,7 @@ class SlidesController < ApplicationController
     rescue Exception => e
       @slide = nil # do something better here!
     ensure
-      @header = "Is Otley Average? Live!"
+      @header = "How Healthy is Otley? Live!"
     end
   end
 

@@ -4,3 +4,5 @@ Otley Science Festival - Live Experiment
 Every year, Otley Science Festival has a "Live experiment" that visitors to the Science Fair take part in and then enter their results into a web form in the "media room". The web form bit is run via wufoo.com, and this bit of code grabs a csv from there, parses it, generates some graphs via the google graph API which are then displayed as slides on the overhead projector. 
 
 This year - How Healthy is Otley?. Or. How Fat is Otley (but we weren't allowed to call it that). Users measure everything needed to measure their BMI (weight and height) and input their age.
+
+Should probably say that this code is far from perfect as I threw it together in an evening :) But did the job just fine.
